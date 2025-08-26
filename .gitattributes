@@ -1,4 +1,9 @@
 *.dart linguist-detectable=true
 *.dart linguist-language=Dart
-android/* linguist-vendored
-ios/* linguist-vendored
+
+# Ignore auto-generated / platform code
+android/** linguist-vendored
+ios/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
